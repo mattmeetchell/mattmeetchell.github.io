@@ -33,7 +33,7 @@
   .about h1 {
     font-size: 30px;
   }
-  .clearfix:after {
+ .clearfix:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -146,8 +146,6 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    height:400
-    top:900px;
 }
 
 .footer_split {
@@ -288,6 +286,4 @@ footer section p {
     nav ul {
         padding-top: 0;
     }
-  
-
 
