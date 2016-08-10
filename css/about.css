@@ -3,7 +3,7 @@
   /*background: url('about_image.png') no-repeat;*/
   background: url('../images/about_image.png') no-repeat;
   background-size: cover;
-  height: auto;
+  height: 800px;
   float: left;
 }
 
