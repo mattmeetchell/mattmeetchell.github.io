@@ -2,6 +2,8 @@
 body {
     margin: 0px;
     font-family: 'Roboto', serif;
+    position: relative;
+    padding-bottom: 250px;
 }
 
 header {
@@ -95,6 +97,10 @@ footer {
     margin-bottom: 0;
     padding-bottom: 5%;
     padding-top: 2%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer_split {
