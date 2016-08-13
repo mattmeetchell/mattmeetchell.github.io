@@ -127,7 +127,7 @@ footer ul li {
     display: inline-block;
     margin-left: 7%;
     margin-right: 11%;
-    padding-right: 42px;
+    /*padding-right: 42px;*/
 
 }
 
@@ -145,44 +145,11 @@ footer section p {
     margin-top: 34px;
 }
 
-.behance {
-    background: url('../images/sprite-sheet.png') no-repeat 0 -3px;
-    height: 26px;
+.fa {
+	color: lightgrey;
 }
-
-.behance:hover {
-    background: url('../images/sprite-sheet.png') no-repeat 0 -53px;
-    height: 26px;
-}
-
-.dribble {
-    background: url('../images/sprite-sheet.png') no-repeat -92px 0;
-    height: 32px;
-}
-
-.dribble:hover {
-    background: url('../images/sprite-sheet.png') no-repeat -92px -50px;
-    height: 32px;
-}
-
-.linkedin {
-    background: url('../images/sprite-sheet.png') no-repeat -168px -1px;
-    height: 31px;
-}
-
-.linkedin:hover {
-    background: url('../images/sprite-sheet.png') no-repeat -168px -51px;
-    height: 31px;
-}
-
-.twitter {
-    background: url('../images/sprite-sheet.png') no-repeat -237px -1px;
-    height: 30px;
-}
-
-.twitter:hover {
-    background: url('../images/sprite-sheet.png') no-repeat -237px -51px;
-    height: 30px;
+.fa:hover {
+	color: #e33d3d;
 }
 
 @media screen and (max-width: 910px), screen and (max-device-width: 910px) {
