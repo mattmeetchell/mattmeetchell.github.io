@@ -219,11 +219,11 @@ footer section p {
         padding-top: 0;
     }
     
-    .home_button {
+    .homebutton {
   	fill: #282828; 
 }
 
-.home_button:hover {
+.homebutton:hover {
 	 fill: #e33d3d; 
 }
 
