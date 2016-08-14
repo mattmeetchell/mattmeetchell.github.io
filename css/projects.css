@@ -109,6 +109,18 @@
 .ind_project_padding {
   padding-bottom: 5px;
   padding-top: 20px;
+  width: 52px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.ind_project_padding svg {
+  color: #282828;
+  fill: #282828;
+}
+.ind_project_padding svg:hover {
+  color: #e33d3d;
+  fill: #dd4545;
 }
 
 .home_button {
@@ -166,7 +178,7 @@
   .image_padding {
     display: none;
   }
-  
+
   .style p {
     margin-bottom: 0px;
     margin-top: 8px;
