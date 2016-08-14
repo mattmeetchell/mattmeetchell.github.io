@@ -1,5 +1,7 @@
 .homie {
   fill: #94d31b;
+  height:688px
+  width:417px
 }
 
 .homie:hover {
