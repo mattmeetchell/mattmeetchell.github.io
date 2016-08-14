@@ -1,0 +1,7 @@
+.homie {
+  fill: #94d31b;
+}
+
+.homie:hover {
+  fill: #dd4545;
+}
