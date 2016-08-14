@@ -218,10 +218,12 @@ footer section p {
     nav ul {
         padding-top: 0;
     }
-    .homebutton {
-  fill: #282828; 
+    
+    .home_button {
+  	fill: #282828; 
 }
-.homebutton:hover {
-  fill: #e33d3d; 
+
+.home_button:hover {
+	 fill: #e33d3d; 
 }
 
