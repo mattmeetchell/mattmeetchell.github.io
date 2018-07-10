@@ -17,6 +17,7 @@
   font-size: 56px;
   margin-bottom: 0px;
   margin-top: 0px;
+  line-height: 0.2;
 }
 
 @media screen and (max-width: 700px), screen and (max-device-width: 700px) {
@@ -35,5 +36,6 @@
     font-size: 56px;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 0.2;
   }
  
