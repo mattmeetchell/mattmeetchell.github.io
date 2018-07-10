@@ -7,8 +7,13 @@
   float: left;
 }
 
+  .about p{
+    font-size: 18px;
+    line-height: 1.0;
+}
+
 .about article {
-  width: 30%;
+  width: 40%;
   margin: 10% 5%;
   float: left;
 }
@@ -17,7 +22,7 @@
   font-size: 56px;
   margin-bottom: 0px;
   margin-top: 0px;
-  line-height: 0.2;
+  line-height: 1.0;
 }
 
 @media screen and (max-width: 700px), screen and (max-device-width: 700px) {
