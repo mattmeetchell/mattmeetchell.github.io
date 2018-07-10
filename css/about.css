@@ -14,8 +14,8 @@
 }
 
 .about h1 {
-  font-size: 30px;
-  margin-bottom: 14px;
+  font-size: 56px;
+  margin-bottom: 18px;
 }
 
 @media screen and (max-width: 700px), screen and (max-device-width: 700px) {
