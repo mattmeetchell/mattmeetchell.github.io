@@ -219,4 +219,22 @@ footer section p {
         padding-top: 0;
     }
     
+	a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #FFBFBF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FA7D7D;
+}
+
+/* selected link */
+a:active {
+    color: #D93A3A;
+}
 
