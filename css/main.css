@@ -16,6 +16,20 @@ body {
     padding-bottom: 250px;
 }
 
+/* visited link */
+a:visited {
+    color: #FFBFBF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FA7D7D;
+}
+ 
+/* selected link */
+a:active {
+    color: #D93A3A;
+}
 header {
     margin: 0;
     overflow: hidden;
