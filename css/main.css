@@ -164,9 +164,11 @@ footer section p {
 
 .fa {
 	color: lightgrey;
+	transition: transform .3s ease-in-out;
 }
 .fa:hover {
 	color: #e33d3d;
+	transform: scale(1.2);
 }
 
 @media screen and (max-width: 910px), screen and (max-device-width: 375x) {
