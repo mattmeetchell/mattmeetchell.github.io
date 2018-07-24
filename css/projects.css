@@ -19,7 +19,7 @@
   display: inline-block;
   background: black;
   cursor: pointer;
-  transition: .5s ease;
+  transition: transform .1s ease-in-out;
 }
 
 .hidden_content {
@@ -29,6 +29,7 @@
 
 .dash_image:hover img {
   opacity: 0.2;
+  
 }
 
 .dash_image:hover .hidden_content {
