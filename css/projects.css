@@ -117,10 +117,12 @@
 .ind_project_padding svg {
   color: #282828;
   fill: #282828;
+  transition: transform .1s ease-in-out;
 }
 .ind_project_padding svg:hover {
   color: #e33d3d;
   fill: #dd4545;
+  transform: scale(1.2);
 }
 
 .home_button {
