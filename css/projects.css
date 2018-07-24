@@ -28,7 +28,7 @@
 /*.dash_image:hover {}*/
 
 .dash_image:hover img {
-  transition: opacity: 0.2;
+  opacity: 0.2;
   
 }
 
