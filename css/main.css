@@ -176,19 +176,21 @@ footer section p {
 	transform: scale(1.2);
 }
 
-@media screen and (max-width: 910px), screen and (max-device-width: 375x) {
+@media screen and (max-width: 910px), screen and (max-device-width: 414x) {
     nav ul li {
     padding-right: 27%;
     }
 }
 
-@media screen and (max-width: 810px), screen and (max-device-width: 375px) {
+@media screen and (max-width: 810px), screen and (max-device-width: 414px) {
     nav ul li {
         padding-right: 25%;
+	font-size:34px;
+	
     }
 }
 
-@media screen and (max-width: 700px), screen and (max-device-width: 375px) {
+@media screen and (max-width: 700px), screen and (max-device-width: 414px) {
     .nav_left {
         float: left;
         width: 100%;
@@ -230,6 +232,7 @@ footer section p {
     nav ul li {
         padding: 0;
         width: 32.9%;
+
 
     }
 
