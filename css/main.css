@@ -16,20 +16,7 @@ body {
     padding-bottom: 250px;
 }
 
-/* visited link */
-a:visited {
-    color: #FFBFBF;
-}
 
-/* mouse over link */
-a:hover {
-    color: #FA7D7D;
-}
- 
-/* selected link */
-a:active {
-    color: #D93A3A;
-}
 header {
     margin: 0;
     overflow: hidden;
@@ -83,6 +70,7 @@ nav ul li a:visited{
 
 nav ul li a:hover,
 nav ul li a.hovered {
+    color: FA7D7D;
     padding-bottom: 15%;
     border-bottom: 2px solid #e33d3d;
 }
