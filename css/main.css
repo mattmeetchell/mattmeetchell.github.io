@@ -20,6 +20,9 @@ body {
 header {
     margin: 0;
     overflow: hidden;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
 }
 
 .logo_container {
@@ -76,24 +79,20 @@ nav ul li a.hovered {
 }
 
 .nav_left {
-    float: left;
-    width: 32.5%;
     background: #e33d3d;
-    height: 120px;
+    flex: 4;
 }
 
 .nav_middle {
-    float: left;
-    width: 33.3333%;
     background: #282828;
     height: 120px;
+    flex: 4;
 }
 
 .nav_right {
-    float: left;
-    width: 33.3333%;
     background: #282828;
     height: 120px;
+    flex: 4;
 }
 
 .notice {
@@ -180,12 +179,10 @@ footer section p {
 
 @media screen and (max-width: 700px), screen and (max-device-width: 756px) {
     .nav_left {
-        float: left;
-        width: 100%;
         background: #e33d3d;
-        padding: 0;
         padding-top: 15px;
         height: 120px;
+        flex: 0 0 100%;
     }
 
     .nav_middle {
@@ -198,11 +195,10 @@ footer section p {
     }
 
     .nav_right {
-        float: left;
-        width: 100%;
         background: #282828;
         height: 30px;
         padding: 5% 0;
+        flex: 0 0 100%;
     }
 
     .footer_split {
