@@ -25,7 +25,10 @@
   line-height: 1.2;
 }
 
-@media screen and (max-width: 700px), screen and (max-device-width: 700px) {
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+  body {
+    min-height: 90vh;
+  }
   .about_image {
     background: url('../images/about_mobile.png') no-repeat;
     background-size: cover;
@@ -42,4 +45,4 @@
     margin-top: 0px;
     margin-bottom: 0px;
   }
- 
+}
