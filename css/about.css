@@ -25,6 +25,17 @@
   line-height: 1.2;
 }
 
+.about a {
+  color: #E33D3D;
+}
+.about a:visited {
+  color: #A72525;
+}
+
+.about a:hover {
+  color: #FFBFBA;
+}
+
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
   .flex-wrapper {
     min-height: 80vh;
