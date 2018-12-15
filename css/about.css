@@ -1,10 +1,23 @@
+body {
+  padding-bottom: 0;
+}
+footer {
+  position: relative;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.about {
+  flex: 8;
+}
+
 .about_image {
-  width: 32.5%;
-  /*background: url('about_image.png') no-repeat;*/
+  flex: 4;
   background: url('../images/about_image.png') no-repeat;
   background-size: cover;
   height: 800px;
-  float: left;
 }
 
   .about p{
@@ -38,6 +51,7 @@
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
   .flex-wrapper {
+    display: block;
     min-height: 80vh;
   }
   .about_image {
