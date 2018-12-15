@@ -83,6 +83,17 @@
   padding-bottom: 40px;
 }
 
+.project_info_space a {
+  color: #E33D3D;
+}
+.project_info_space a:visited {
+  color: #A72525;
+}
+
+.project_info_space a:hover {
+  color: #FFBFBA;
+}
+
 .ind_project_image {
   width: 100%;
   margin: 0px;

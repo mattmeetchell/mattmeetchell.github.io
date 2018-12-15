@@ -68,7 +68,7 @@ nav ul li a {
     cursor: pointer;
 }
 nav ul li a:visited{
-	#ffffff
+	color: #ffffff
 }
 
 nav ul li a:hover,
